@@ -16,7 +16,7 @@ provider "aws" {
 #}
 
 resource "aws_s3_bucket" "terraform_state" {
-  bucket = "env0-terraform-state-bucket"
+  bucket = "env0-01-terraform-state-bucket"
   lifecycle {
     prevent_destroy = false
   }
