@@ -262,3 +262,6 @@ variable "AWS_ACCESS_KEY_ID" {
 variable "AWS_SECRET_ACCESS_KEY" {
   type = string
 }
+variable "AWS_SESSION_TOKEN" {
+  type = string
+}
